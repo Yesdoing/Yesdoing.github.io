@@ -4,10 +4,27 @@ title: About
 sidebar_link: true
 ---
 
-<p class="message">
-  Hey there! This page is included as an example. Feel free to customize it
-  for your own use upon downloading. Carry on!
-</p>
+```
+  Yesdoing이 공부한 내용을 정리하는 블로그입니다.
+  초보 개발자가 되기 위해 공부하는 중이니 혹시 잘못된 내용이 있을시   
+  과감하게 댓글 달아주세요~ ㅇㅅㅇb
+```
+### 이력
+* 영남대학교 컴퓨터 공학과 졸업
+* 코드스쿼드 화이트 레벨 이수
 
-To make pages show up in the sidebar, add `sidebar_link: true` to the front
-matter.
+### 공부한 것
+* CS 기초
+  * 네트워크, 운영체제, 자료구조&알고리즘, 소프트웨어 공학, 컴퓨터구조 등
+* Spring
+  * 스프링 퀵 스타트
+  * 인프런 - 신입 프로그래머를 위한 실전 JSP 강좌
+  * 인프런 - 신입 프로그래머를 위한 자바 스프링(Spring) 프레임워크 강좌
+  * 구멍가게 코딩단 - 실전 예제로 배우는 스프링 프레임워크
+  * 자바지기(박재성) - JWP Next Step (현재 공부 중)
+* Node.js
+  * TDD로 배우는 Node.js(김정환)
+  * Node.js 웹개발로 알아보는 백엔드 자바스크립트의 이해
+* JAVA
+  * 점프 투 자바
+  * 자바의 정석
