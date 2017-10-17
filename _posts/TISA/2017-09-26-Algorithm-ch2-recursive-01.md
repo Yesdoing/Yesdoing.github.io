@@ -18,7 +18,7 @@ tags:
     }
   ```
 
-* 예시1. - 종료 조건이 없기때문에 무한루프에 빠진다.
+* 예시1. - 종료 조건이 없기때문에 ø무한루프에 빠진다.
   ```
   public class Code01 {
   	public static void main(String[] args) {
