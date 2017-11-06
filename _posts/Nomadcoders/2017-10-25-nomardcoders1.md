@@ -70,4 +70,40 @@ tags:
   * Position property
     * default : static - element를 붙이면 거기에 고정되어있다.
     * fixed - element가 그위치에 오버랩해서 고정된다. 스크롤해도 보임
-    * absolute - fixed와 비슷하지만 스크롤해도 안보임. html상에서 해당 element와 관계잇는 relative elements를 살펴보고 이에 상응하는 포지션이 결정된다. 
+    * absolute - fixed와 비슷하지만 스크롤해도 안보임. html상에서 해당 element와 관계잇는 relative elements를 살펴보고 이에 상응하는 포지션이 결정된다.
+
+  * flex
+    * flex는 부모 박스에만 적용을 한다.
+    * 자식 박스는 건드리지 않는다.
+    * 부모-박스가 아래 딸려있는 칠드런 박스를 움직인다. 그리고 박스가 그 안에 들어있는 컨텐츠(1)을 움직인다.(플렉스박스라)
+    * 부모 컨테이너(father)를 플렉스로 선언하면, 그 안에 종속된 칠드런 박스들을(children) 움지깅ㄹ 수 있다. 그렇기때문1에, 각각 박스에게 일일히 명령할 필요가 없다.
+    * [flex연습사이트](http://flexboxfroggy.com/#ko)
+
+  * CSS Selectors and Pseudo Selectors
+    * 레이아웃이 복잡해질때가 있다.
+    * 팀으로 일할때 class로 style을 조정할 수 있지만 팀으로 일할때는 막 하면 안된다.
+    * Pseudo Selector(가상 셀렉터) - 셀렉터인데 element가 아닌 것을 뜻함.
+      * 가상 셀렉터의 컨셉을 이해하는것이 중요하다. 태그이름이나, class, id를 쓰지 않고, 선택하는 방법이 있다는 것.
+      * 사용법 : ```input[type="password"]{ background-color: blue;}```
+
+  * Element State with CSS
+    * :hover = 위에 마우스 올리면 변화
+    * :active = 마우스 클릭 시 변화
+    * :focus = 경계색
+
+  * Transitions(트랜지션)
+    * focus, active, hover에 적용됨
+    * 효과과 적용될때 시간을 설정해서 시간이 지남에 따라 효과가 적용되게 한다.
+    * 하나의 state에서 다른 state로 넘어가는 것
+
+  * Transformations (트랜스포메이션)
+    * html 문서의 element들을 변경, 모습이 변하는 효과를 뜻함.
+    * 뒤집거나. 비틀거나. 크기를 줄이거나 등등.
+
+  * Animations
+    * 트랜지션과 트랜스포메이션의 효과를 계속 적용하고 싶을 때
+    * @keyFrames를 만들어 from-to || 0%-50%-100% 에 효과 적용
+
+  * Media Queries
+    * 화면에 따른 css적용 변화
+    * 반응형 웹디자인에 사용(모바일-데스크탑 환경)
