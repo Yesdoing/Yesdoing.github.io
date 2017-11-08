@@ -17,3 +17,4 @@ categories:
 * comprise - ~으로 이루어지다.
 * in terms of - ~에 관하여
 * auxiliary - 보조하는, 도움이 되는
+* contact - 연락하다, 접촉하다.
