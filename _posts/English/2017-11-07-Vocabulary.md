@@ -1,13 +1,8 @@
 ---
-
 layout: post
-
 title: "단어장"
-
 categories:
-
--	English
-
+  -	English
 ---
 
 단어장

@@ -1,17 +1,10 @@
 ---
-
 layout: post
-
 title: "[실전] ReactJS로 웹 서비스 만들기"
-
 categories:
-
--	노마드코더
-
+  -	노마드코더
 tags:
-
--	ReactJS
-
+  -	ReactJS
 ---
 
 ### 리액트가 왜 핫하냐?

@@ -1,18 +1,11 @@
 ---
-
 layout: post
-
 title: "[실전] React Native로 온도앱 만들기"
-
 categories:
-
--	노마드코더
-
+  -	노마드코더
 tags:
-
--	ReactJS
--	React Native
-
+  -	ReactJS
+  -	React Native
 ---
 
 ### 개발 환경
