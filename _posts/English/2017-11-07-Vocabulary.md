@@ -22,3 +22,4 @@ categories:
 -	auxiliary - 보조하는, 도움이 되는
 -	contact - 연락하다, 접촉하다.
 -	So far - 지금까지는
+- It is hard to - ~하기 어려운
