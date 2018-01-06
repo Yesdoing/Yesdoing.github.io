@@ -23,3 +23,5 @@ categories:
 -	contact - 연락하다, 접촉하다.
 -	So far - 지금까지는
 - It is hard to - ~하기 어려운
+- I try to - ~할려고 노력하다
+- should, need to, have to - ~할거야. 
