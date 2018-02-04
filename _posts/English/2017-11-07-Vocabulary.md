@@ -24,4 +24,6 @@ categories:
 -	So far - 지금까지는
 - It is hard to - ~하기 어려운
 - I try to - ~할려고 노력하다
-- should, need to, have to - ~할거야. 
+- should, need to, have to - ~할거야.
+- think up - 생각해내다.
+- come out - 결과가 나오다.
