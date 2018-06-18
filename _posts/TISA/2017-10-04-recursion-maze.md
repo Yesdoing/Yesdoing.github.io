@@ -44,6 +44,7 @@ tags:
 
 * 미로찾기 구현 코드
 ```
+
 public class Maze {
 	private static int N = 8;
 	private static int[][] maze = {
