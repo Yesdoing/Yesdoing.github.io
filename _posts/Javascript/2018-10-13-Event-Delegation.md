@@ -5,8 +5,9 @@
 - 최근 바닐라 스크립트로 개발을 하던 중 동적 엘리먼트의 이벤트 처리 부분을 엘리먼트 생성 시 각 버튼 이벤트를 추가했었는데, 스터디를 같이하는 개발자분께서 이런 동적 엘리먼트는 이벤트 위임 방식으로 구현할 수도 있다고 말씀하셨다. 평소에 이벤트 위임 패턴에 대해 지식으로만 알고 있었지만 실제로 구현해서 적용하지 않다 보니 어떻게 적용해야 하는지 몰라 직접 예제를 구현하며 공부한 것을 복습하고자 이 글을 적게 되었습니다.
 - 이 글의 모든 예제는 제가 직접 구현한 것이므로 틀린 부분이 있을 수 있습니다.
 - 이 글의 모든 예제는 [깃허브 저장소](https://github.com/Yesdoing/js_event_delegation)에 있습니다.
-
+```codepen
 [https://codepen.io/YesDoing/full/NOvoqP](https://codepen.io/YesDoing/full/NOvoqP)
+```
 
 # 이벤트 위임이란?
 
@@ -20,7 +21,7 @@
 # 이벤트 위임 코드 구현
 
 - html 구현 부분
-
+```html
     <div class="container">
             <h1> 위임 패턴 예제</h1>
             <form class="todo-form">
@@ -42,9 +43,9 @@
     					-->
             </div>
     </div>
-
+```
 - javascript 구현 부분
-
+```javascript
     import {todo} from '../data/todo.js';
     import {todoTemplate} from '../template/todoTemplate.js';
     
@@ -89,7 +90,7 @@
             });
         }
     }
-
+```
 - Form 태그에서 할 일을 입력받고 Submit 이벤트를 호출 시키면 .todo-list 요소의 자식으로 .todo 요소가 추가됩니다.
 - 이때 .todo요소에 대해 이벤트를 추가하지 않고 부모 요소인 .todo-list에 click에 대한 이벤트를 추가하고 .todo-list 요소에서 클릭 이벤트의 콜백 함수에 분기 처리를 통해 각 버튼에 대한 처리를 등록할 수 있습니다.
 - 만약 자식 요소가 자신의 자식 요소 이벤트를 가지고 있을 때는 정확한 이벤트 타깃을 찾기 위해 event.closest()를 사용할 수 있습니다. ([MDN 링크](https://developer.mozilla.org/en-US/docs/Web/API/Element/closest))
