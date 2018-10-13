@@ -5,8 +5,9 @@
 - 최근 바닐라 스크립트로 개발을 하던 중 동적 엘리먼트의 이벤트 처리 부분을 엘리먼트 생성 시 각 버튼 이벤트를 추가했었는데, 스터디를 같이하는 개발자분께서 이런 동적 엘리먼트는 이벤트 위임 방식으로 구현할 수도 있다고 말씀하셨다. 평소에 이벤트 위임 패턴에 대해 지식으로만 알고 있었지만 실제로 구현해서 적용하지 않다 보니 어떻게 적용해야 하는지 몰라 직접 예제를 구현하며 공부한 것을 복습하고자 이 글을 적게 되었습니다.
 - 이 글의 모든 예제는 제가 직접 구현한 것이므로 틀린 부분이 있을 수 있습니다.
 - 이 글의 모든 예제는 [깃허브 저장소](https://github.com/Yesdoing/js_event_delegation)에 있습니다.
-```codepen
-[https://codepen.io/YesDoing/full/NOvoqP](https://codepen.io/YesDoing/full/NOvoqP)
+```
+<p data-height="265" data-theme-id="0" data-slug-hash="NOvoqP" data-default-tab="js,result" data-user="YesDoing" data-pen-title="NOvoqP" class="codepen">See the Pen <a href="https://codepen.io/YesDoing/pen/NOvoqP/">NOvoqP</a> by LeeJangHee (<a href="https://codepen.io/YesDoing">@YesDoing</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
 ```
 
 # 이벤트 위임이란?
