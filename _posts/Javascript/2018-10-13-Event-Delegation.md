@@ -2,8 +2,7 @@
 layout: post
 title: "이벤트 위임(Event Delegation)의 구현"
 categories:
-  -	javascript
-  - event-delegation
+  -	Javascript
 ---
 
 # 이 글을 쓰는 목적
