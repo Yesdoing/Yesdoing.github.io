@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "이벤트 위임(Event Delegation)의 구현"
+title: "이벤트 위임 패턴 구현"
 categories:
-  -	posting
+  - posting
 ---
 
 

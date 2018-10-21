@@ -1,12 +1,10 @@
 ---
 layout: post
-title: "이벤트 위임(Event Delegation)의 구현"
+title: "BEM( Block, Element, Modifier) Quick start"
 categories:
-  -	posting
+  - posting
 ---
 
-
-# BEM( Block, Element, Modifier) Quick start
 
 # 들어가며 👀
 
