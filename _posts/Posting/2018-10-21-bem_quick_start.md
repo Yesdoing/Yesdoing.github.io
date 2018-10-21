@@ -1,8 +1,7 @@
 ---
 layout: post
 title: "BEM( Block, Element, Modifier) Quick start"
-categories:
-  - posting
+categories: posting
 ---
 
 

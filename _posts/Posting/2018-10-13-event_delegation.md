@@ -1,8 +1,7 @@
 ---
 layout: post
 title: "이벤트 위임 패턴 구현"
-categories:
-  - posting
+categories: posting
 ---
 
 
